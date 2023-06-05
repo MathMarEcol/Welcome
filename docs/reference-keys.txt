@@ -1,3 +1,6 @@
+fig:general
+fig:ssps
+fig:ncview
 welcome
 lab-meetings
 general-administration
