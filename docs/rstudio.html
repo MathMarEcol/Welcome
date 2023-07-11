@@ -689,7 +689,7 @@ argument or maybe the first two. After that, I always use <code>name = value</co
 <div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb39-1"><a href="rstudio.html#cb39-1" aria-hidden="true" tabindex="-1"></a>??install </span></code></pre></div>
 <p>Not all functions have (or require) arguments:</p>
 <div class="sourceCode" id="cb40"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb40-1"><a href="rstudio.html#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="fu">date</span>()</span></code></pre></div>
-<pre><code>## [1] &quot;Tue Jun  6 09:43:48 2023&quot;</code></pre>
+<pre><code>## [1] &quot;Tue Jul 11 12:06:24 2023&quot;</code></pre>
 </div>
 </div>
 <div id="packages" class="section level2 hasAnchor" number="2.6">
@@ -705,7 +705,7 @@ Sometimes there is a confusion between a package and a library, and you can find
 <div class="sourceCode" id="cb43"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb43-1"><a href="rstudio.html#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(praise)</span></code></pre></div>
 <p>Now that we’ve loaded the <code>praise</code> package, we can use the single function in the package, <code>praise()</code>, which returns a randomized praise to make you feel better.</p>
 <div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb44-1"><a href="rstudio.html#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="fu">praise</span>()</span></code></pre></div>
-<pre><code>## [1] &quot;You are ace!&quot;</code></pre>
+<pre><code>## [1] &quot;You are first-class!&quot;</code></pre>
 </div>
 <div id="clearing-the-environment" class="section level2 hasAnchor" number="2.7">
 <h2><span class="header-section-number">2.7</span> Clearing the environment<a href="rstudio.html#clearing-the-environment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -713,13 +713,11 @@ Sometimes there is a confusion between a package and a library, and you can find
 <p><img src="img/RStudio_IDE_env.png" /></p>
 <p>You can also get a listing of these objects with a few different R commands:</p>
 <div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb46-1"><a href="rstudio.html#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="fu">objects</span>()</span></code></pre></div>
-<pre><code>##  [1] &quot;est&quot;                        &quot;fish_weights&quot;               &quot;fish_weights_lb&quot;            &quot;gap_to_plot&quot;                &quot;gapminder&quot;                 
-##  [6] &quot;gapminder_est&quot;              &quot;my_plot&quot;                    &quot;names&quot;                      &quot;science_rocks&quot;              &quot;this_is_a_really_long_name&quot;
-## [11] &quot;weight_kg&quot;                  &quot;weight_lb&quot;                  &quot;x&quot;                          &quot;y&quot;</code></pre>
+<pre><code>## [1] &quot;fish_weights&quot;               &quot;fish_weights_lb&quot;            &quot;names&quot;                      &quot;science_rocks&quot;             
+## [5] &quot;this_is_a_really_long_name&quot; &quot;weight_kg&quot;                  &quot;weight_lb&quot;                  &quot;x&quot;</code></pre>
 <div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb48-1"><a href="rstudio.html#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span>()</span></code></pre></div>
-<pre><code>##  [1] &quot;est&quot;                        &quot;fish_weights&quot;               &quot;fish_weights_lb&quot;            &quot;gap_to_plot&quot;                &quot;gapminder&quot;                 
-##  [6] &quot;gapminder_est&quot;              &quot;my_plot&quot;                    &quot;names&quot;                      &quot;science_rocks&quot;              &quot;this_is_a_really_long_name&quot;
-## [11] &quot;weight_kg&quot;                  &quot;weight_lb&quot;                  &quot;x&quot;                          &quot;y&quot;</code></pre>
+<pre><code>## [1] &quot;fish_weights&quot;               &quot;fish_weights_lb&quot;            &quot;names&quot;                      &quot;science_rocks&quot;             
+## [5] &quot;this_is_a_really_long_name&quot; &quot;weight_kg&quot;                  &quot;weight_lb&quot;                  &quot;x&quot;</code></pre>
 <p>If you want to remove the object named <code>weight_kg</code>, you can do this:</p>
 <div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="rstudio.html#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(weight_kg)</span></code></pre></div>
 <p>To remove everything:</p>
