@@ -22,7 +22,6 @@ _"To write is human, to edit is divine." Stephen King_
 
 ### What is good scientific writing?
 
-
 Maybe a truthful but uninformative answer is "You know when you read it!". Being able to understand the message easily is clearly essential. But so is being concise, as words cost journals money and scientists have limited time to read your work. But good scientific writing is more than just being clear and concise. For example, newspaper articles can be clear and concise, but most would say that the journalistic style is inappropriate in a scientific setting. Scientific writing has a host of conventions, not all of which are always made explicit. For example, adhering to the typical structure of a scientific paper, not using colloquialisms, not providing opinion, and not being emotive, to name a few. Although it might feel that such "rules" take the fun out of writing, good scientific writing should not be bland and boring to read. There is room, and indeed a need, for creativity.
 
 ### Why write well?
